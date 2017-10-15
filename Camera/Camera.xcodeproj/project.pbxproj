@@ -51,6 +51,88 @@
 		CF00625D1F9308DB00B3024C /* CameraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CameraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF0062611F9308DB00B3024C /* CameraUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CameraUITests.m; sourceTree = "<group>"; };
 		CF0062631F9308DB00B3024C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF0062711F930F1400B3024C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF0062721F930F1400B3024C /* MASCompositeConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASCompositeConstraint.h; sourceTree = "<group>"; };
+		CF0062731F930F1400B3024C /* MASCompositeConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASCompositeConstraint.m; sourceTree = "<group>"; };
+		CF0062741F930F1400B3024C /* MASConstraint+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MASConstraint+Private.h"; sourceTree = "<group>"; };
+		CF0062751F930F1400B3024C /* MASConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraint.h; sourceTree = "<group>"; };
+		CF0062761F930F1400B3024C /* MASConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASConstraint.m; sourceTree = "<group>"; };
+		CF0062771F930F1400B3024C /* MASConstraintMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASConstraintMaker.h; sourceTree = "<group>"; };
+		CF0062781F930F1400B3024C /* MASConstraintMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASConstraintMaker.m; sourceTree = "<group>"; };
+		CF0062791F930F1400B3024C /* MASLayoutConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASLayoutConstraint.h; sourceTree = "<group>"; };
+		CF00627A1F930F1400B3024C /* MASLayoutConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASLayoutConstraint.m; sourceTree = "<group>"; };
+		CF00627B1F930F1400B3024C /* Masonry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Masonry.h; sourceTree = "<group>"; };
+		CF00627C1F930F1400B3024C /* MASUtilities.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASUtilities.h; sourceTree = "<group>"; };
+		CF00627D1F930F1400B3024C /* MASViewAttribute.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewAttribute.h; sourceTree = "<group>"; };
+		CF00627E1F930F1400B3024C /* MASViewAttribute.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASViewAttribute.m; sourceTree = "<group>"; };
+		CF00627F1F930F1400B3024C /* MASViewConstraint.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MASViewConstraint.h; sourceTree = "<group>"; };
+		CF0062801F930F1400B3024C /* MASViewConstraint.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MASViewConstraint.m; sourceTree = "<group>"; };
+		CF0062811F930F1400B3024C /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		CF0062821F930F1400B3024C /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		CF0062831F930F1400B3024C /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		CF0062841F930F1400B3024C /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		CF0062851F930F1400B3024C /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		CF0062861F930F1400B3024C /* View+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASAdditions.h"; sourceTree = "<group>"; };
+		CF0062871F930F1400B3024C /* View+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "View+MASAdditions.m"; sourceTree = "<group>"; };
+		CF0062881F930F1400B3024C /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		CF0062891F930F1400B3024C /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		CF00628A1F930F1400B3024C /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		CF00628C1F930FA900B3024C /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		CF00628D1F930FA900B3024C /* pop-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pop-ios-Info.plist"; sourceTree = "<group>"; };
+		CF00628E1F930FA900B3024C /* pop-osx-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pop-osx-Info.plist"; sourceTree = "<group>"; };
+		CF00628F1F930FA900B3024C /* pop-tvos-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "pop-tvos-Info.plist"; sourceTree = "<group>"; };
+		CF0062901F930FA900B3024C /* POP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POP.h; sourceTree = "<group>"; };
+		CF0062911F930FA900B3024C /* POPAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPAction.h; sourceTree = "<group>"; };
+		CF0062921F930FA900B3024C /* POPAnimatableProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPAnimatableProperty.h; sourceTree = "<group>"; };
+		CF0062931F930FA900B3024C /* POPAnimatableProperty.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimatableProperty.mm; sourceTree = "<group>"; };
+		CF0062941F930FA900B3024C /* POPAnimatablePropertyTypes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPAnimatablePropertyTypes.h; sourceTree = "<group>"; };
+		CF0062951F930FA900B3024C /* POPAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPAnimation.h; sourceTree = "<group>"; };
+		CF0062961F930FA900B3024C /* POPAnimation.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimation.mm; sourceTree = "<group>"; };
+		CF0062971F930FA900B3024C /* POPAnimationEvent.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPAnimationEvent.h; sourceTree = "<group>"; };
+		CF0062981F930FA900B3024C /* POPAnimationEvent.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationEvent.mm; sourceTree = "<group>"; };
+		CF0062991F930FA900B3024C /* POPAnimationEventInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPAnimationEventInternal.h; sourceTree = "<group>"; };
+		CF00629A1F930FA900B3024C /* POPAnimationExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPAnimationExtras.h; sourceTree = "<group>"; };
+		CF00629B1F930FA900B3024C /* POPAnimationExtras.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationExtras.mm; sourceTree = "<group>"; };
+		CF00629C1F930FA900B3024C /* POPAnimationInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPAnimationInternal.h; sourceTree = "<group>"; };
+		CF00629D1F930FA900B3024C /* POPAnimationPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPAnimationPrivate.h; sourceTree = "<group>"; };
+		CF00629E1F930FA900B3024C /* POPAnimationRuntime.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPAnimationRuntime.h; sourceTree = "<group>"; };
+		CF00629F1F930FA900B3024C /* POPAnimationRuntime.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationRuntime.mm; sourceTree = "<group>"; };
+		CF0062A01F930FA900B3024C /* POPAnimationTracer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPAnimationTracer.h; sourceTree = "<group>"; };
+		CF0062A11F930FA900B3024C /* POPAnimationTracer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimationTracer.mm; sourceTree = "<group>"; };
+		CF0062A21F930FA900B3024C /* POPAnimationTracerInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPAnimationTracerInternal.h; sourceTree = "<group>"; };
+		CF0062A31F930FA900B3024C /* POPAnimator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPAnimator.h; sourceTree = "<group>"; };
+		CF0062A41F930FA900B3024C /* POPAnimator.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = POPAnimator.mm; sourceTree = "<group>"; };
+		CF0062A51F930FA900B3024C /* POPAnimatorPrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPAnimatorPrivate.h; sourceTree = "<group>"; };
+		CF0062A61F930FA900B3024C /* POPBasicAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPBasicAnimation.h; sourceTree = "<group>"; };
+		CF0062A71F930FA900B3024C /* POPBasicAnimation.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = POPBasicAnimation.mm; sourceTree = "<group>"; };
+		CF0062A81F930FA900B3024C /* POPBasicAnimationInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPBasicAnimationInternal.h; sourceTree = "<group>"; };
+		CF0062A91F930FA900B3024C /* POPCGUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPCGUtils.h; sourceTree = "<group>"; };
+		CF0062AA1F930FA900B3024C /* POPCGUtils.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = POPCGUtils.mm; sourceTree = "<group>"; };
+		CF0062AB1F930FA900B3024C /* POPCustomAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPCustomAnimation.h; sourceTree = "<group>"; };
+		CF0062AC1F930FA900B3024C /* POPCustomAnimation.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = POPCustomAnimation.mm; sourceTree = "<group>"; };
+		CF0062AD1F930FA900B3024C /* POPDecayAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPDecayAnimation.h; sourceTree = "<group>"; };
+		CF0062AE1F930FA900B3024C /* POPDecayAnimation.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = POPDecayAnimation.mm; sourceTree = "<group>"; };
+		CF0062AF1F930FA900B3024C /* POPDecayAnimationInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPDecayAnimationInternal.h; sourceTree = "<group>"; };
+		CF0062B01F930FA900B3024C /* POPDefines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPDefines.h; sourceTree = "<group>"; };
+		CF0062B11F930FA900B3024C /* POPGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPGeometry.h; sourceTree = "<group>"; };
+		CF0062B21F930FA900B3024C /* POPGeometry.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = POPGeometry.mm; sourceTree = "<group>"; };
+		CF0062B31F930FA900B3024C /* POPLayerExtras.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPLayerExtras.h; sourceTree = "<group>"; };
+		CF0062B41F930FA900B3024C /* POPLayerExtras.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = POPLayerExtras.mm; sourceTree = "<group>"; };
+		CF0062B51F930FA900B3024C /* POPMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPMath.h; sourceTree = "<group>"; };
+		CF0062B61F930FA900B3024C /* POPMath.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = POPMath.mm; sourceTree = "<group>"; };
+		CF0062B71F930FA900B3024C /* POPPropertyAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPPropertyAnimation.h; sourceTree = "<group>"; };
+		CF0062B81F930FA900B3024C /* POPPropertyAnimation.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = POPPropertyAnimation.mm; sourceTree = "<group>"; };
+		CF0062B91F930FA900B3024C /* POPPropertyAnimationInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPPropertyAnimationInternal.h; sourceTree = "<group>"; };
+		CF0062BA1F930FA900B3024C /* POPSpringAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPSpringAnimation.h; sourceTree = "<group>"; };
+		CF0062BB1F930FA900B3024C /* POPSpringAnimation.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = POPSpringAnimation.mm; sourceTree = "<group>"; };
+		CF0062BC1F930FA900B3024C /* POPSpringAnimationInternal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPSpringAnimationInternal.h; sourceTree = "<group>"; };
+		CF0062BD1F930FA900B3024C /* POPSpringSolver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPSpringSolver.h; sourceTree = "<group>"; };
+		CF0062BE1F930FA900B3024C /* POPVector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = POPVector.h; sourceTree = "<group>"; };
+		CF0062BF1F930FA900B3024C /* POPVector.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = POPVector.mm; sourceTree = "<group>"; };
+		CF0062C11F930FA900B3024C /* FloatConversion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FloatConversion.h; sourceTree = "<group>"; };
+		CF0062C21F930FA900B3024C /* TransformationMatrix.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TransformationMatrix.cpp; sourceTree = "<group>"; };
+		CF0062C31F930FA900B3024C /* TransformationMatrix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformationMatrix.h; sourceTree = "<group>"; };
+		CF0062C41F930FA900B3024C /* UnitBezier.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UnitBezier.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +192,7 @@
 				CF0062481F9308DB00B3024C /* LaunchScreen.storyboard */,
 				CF00624B1F9308DB00B3024C /* Info.plist */,
 				CF00624C1F9308DB00B3024C /* main.m */,
+				CF00626F1F930F0B00B3024C /* Other */,
 			);
 			path = Camera;
 			sourceTree = "<group>";
@@ -130,6 +213,119 @@
 				CF0062631F9308DB00B3024C /* Info.plist */,
 			);
 			path = CameraUITests;
+			sourceTree = "<group>";
+		};
+		CF00626F1F930F0B00B3024C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CF00628B1F930FA900B3024C /* pop */,
+				CF0062701F930F1400B3024C /* Masonry */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		CF0062701F930F1400B3024C /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				CF0062711F930F1400B3024C /* Info.plist */,
+				CF0062721F930F1400B3024C /* MASCompositeConstraint.h */,
+				CF0062731F930F1400B3024C /* MASCompositeConstraint.m */,
+				CF0062741F930F1400B3024C /* MASConstraint+Private.h */,
+				CF0062751F930F1400B3024C /* MASConstraint.h */,
+				CF0062761F930F1400B3024C /* MASConstraint.m */,
+				CF0062771F930F1400B3024C /* MASConstraintMaker.h */,
+				CF0062781F930F1400B3024C /* MASConstraintMaker.m */,
+				CF0062791F930F1400B3024C /* MASLayoutConstraint.h */,
+				CF00627A1F930F1400B3024C /* MASLayoutConstraint.m */,
+				CF00627B1F930F1400B3024C /* Masonry.h */,
+				CF00627C1F930F1400B3024C /* MASUtilities.h */,
+				CF00627D1F930F1400B3024C /* MASViewAttribute.h */,
+				CF00627E1F930F1400B3024C /* MASViewAttribute.m */,
+				CF00627F1F930F1400B3024C /* MASViewConstraint.h */,
+				CF0062801F930F1400B3024C /* MASViewConstraint.m */,
+				CF0062811F930F1400B3024C /* NSArray+MASAdditions.h */,
+				CF0062821F930F1400B3024C /* NSArray+MASAdditions.m */,
+				CF0062831F930F1400B3024C /* NSArray+MASShorthandAdditions.h */,
+				CF0062841F930F1400B3024C /* NSLayoutConstraint+MASDebugAdditions.h */,
+				CF0062851F930F1400B3024C /* NSLayoutConstraint+MASDebugAdditions.m */,
+				CF0062861F930F1400B3024C /* View+MASAdditions.h */,
+				CF0062871F930F1400B3024C /* View+MASAdditions.m */,
+				CF0062881F930F1400B3024C /* View+MASShorthandAdditions.h */,
+				CF0062891F930F1400B3024C /* ViewController+MASAdditions.h */,
+				CF00628A1F930F1400B3024C /* ViewController+MASAdditions.m */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		CF00628B1F930FA900B3024C /* pop */ = {
+			isa = PBXGroup;
+			children = (
+				CF00628C1F930FA900B3024C /* module.modulemap */,
+				CF00628D1F930FA900B3024C /* pop-ios-Info.plist */,
+				CF00628E1F930FA900B3024C /* pop-osx-Info.plist */,
+				CF00628F1F930FA900B3024C /* pop-tvos-Info.plist */,
+				CF0062901F930FA900B3024C /* POP.h */,
+				CF0062911F930FA900B3024C /* POPAction.h */,
+				CF0062921F930FA900B3024C /* POPAnimatableProperty.h */,
+				CF0062931F930FA900B3024C /* POPAnimatableProperty.mm */,
+				CF0062941F930FA900B3024C /* POPAnimatablePropertyTypes.h */,
+				CF0062951F930FA900B3024C /* POPAnimation.h */,
+				CF0062961F930FA900B3024C /* POPAnimation.mm */,
+				CF0062971F930FA900B3024C /* POPAnimationEvent.h */,
+				CF0062981F930FA900B3024C /* POPAnimationEvent.mm */,
+				CF0062991F930FA900B3024C /* POPAnimationEventInternal.h */,
+				CF00629A1F930FA900B3024C /* POPAnimationExtras.h */,
+				CF00629B1F930FA900B3024C /* POPAnimationExtras.mm */,
+				CF00629C1F930FA900B3024C /* POPAnimationInternal.h */,
+				CF00629D1F930FA900B3024C /* POPAnimationPrivate.h */,
+				CF00629E1F930FA900B3024C /* POPAnimationRuntime.h */,
+				CF00629F1F930FA900B3024C /* POPAnimationRuntime.mm */,
+				CF0062A01F930FA900B3024C /* POPAnimationTracer.h */,
+				CF0062A11F930FA900B3024C /* POPAnimationTracer.mm */,
+				CF0062A21F930FA900B3024C /* POPAnimationTracerInternal.h */,
+				CF0062A31F930FA900B3024C /* POPAnimator.h */,
+				CF0062A41F930FA900B3024C /* POPAnimator.mm */,
+				CF0062A51F930FA900B3024C /* POPAnimatorPrivate.h */,
+				CF0062A61F930FA900B3024C /* POPBasicAnimation.h */,
+				CF0062A71F930FA900B3024C /* POPBasicAnimation.mm */,
+				CF0062A81F930FA900B3024C /* POPBasicAnimationInternal.h */,
+				CF0062A91F930FA900B3024C /* POPCGUtils.h */,
+				CF0062AA1F930FA900B3024C /* POPCGUtils.mm */,
+				CF0062AB1F930FA900B3024C /* POPCustomAnimation.h */,
+				CF0062AC1F930FA900B3024C /* POPCustomAnimation.mm */,
+				CF0062AD1F930FA900B3024C /* POPDecayAnimation.h */,
+				CF0062AE1F930FA900B3024C /* POPDecayAnimation.mm */,
+				CF0062AF1F930FA900B3024C /* POPDecayAnimationInternal.h */,
+				CF0062B01F930FA900B3024C /* POPDefines.h */,
+				CF0062B11F930FA900B3024C /* POPGeometry.h */,
+				CF0062B21F930FA900B3024C /* POPGeometry.mm */,
+				CF0062B31F930FA900B3024C /* POPLayerExtras.h */,
+				CF0062B41F930FA900B3024C /* POPLayerExtras.mm */,
+				CF0062B51F930FA900B3024C /* POPMath.h */,
+				CF0062B61F930FA900B3024C /* POPMath.mm */,
+				CF0062B71F930FA900B3024C /* POPPropertyAnimation.h */,
+				CF0062B81F930FA900B3024C /* POPPropertyAnimation.mm */,
+				CF0062B91F930FA900B3024C /* POPPropertyAnimationInternal.h */,
+				CF0062BA1F930FA900B3024C /* POPSpringAnimation.h */,
+				CF0062BB1F930FA900B3024C /* POPSpringAnimation.mm */,
+				CF0062BC1F930FA900B3024C /* POPSpringAnimationInternal.h */,
+				CF0062BD1F930FA900B3024C /* POPSpringSolver.h */,
+				CF0062BE1F930FA900B3024C /* POPVector.h */,
+				CF0062BF1F930FA900B3024C /* POPVector.mm */,
+				CF0062C01F930FA900B3024C /* WebCore */,
+			);
+			path = pop;
+			sourceTree = "<group>";
+		};
+		CF0062C01F930FA900B3024C /* WebCore */ = {
+			isa = PBXGroup;
+			children = (
+				CF0062C11F930FA900B3024C /* FloatConversion.h */,
+				CF0062C21F930FA900B3024C /* TransformationMatrix.cpp */,
+				CF0062C31F930FA900B3024C /* TransformationMatrix.h */,
+				CF0062C41F930FA900B3024C /* UnitBezier.h */,
+			);
+			path = WebCore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
